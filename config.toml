@@ -1,5 +1,5 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://work-in-progress.onrender.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site (Work In Progress)'
+title = 'Work In Progress'
 
 theme = 'lugo'
