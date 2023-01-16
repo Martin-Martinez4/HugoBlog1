@@ -97,7 +97,7 @@ aNumber.getNumber() // 10
 
 A weak map is a data structure similar to a JavaScript object.  It differs from a normal object in that the key must be an object.
 
-Weak Maps have the following methods:
+Weak Maps have the following built-in methods:
 
 - weakMap.set(key, value)
 

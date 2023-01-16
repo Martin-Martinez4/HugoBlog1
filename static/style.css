@@ -1,9 +1,15 @@
 
+/* 
+colors 
+#364652
+#faf3dd
+#80a684
+*/
 
 body {
 	font-family: sans-serif ;
-	background: #110000 ;
-	color: #ccc;
+	background: #232c33 ;
+	color: #ebe8de;
 	margin: auto;
 }
 
@@ -38,6 +44,44 @@ footer {
 
 }
 
+/* Utiliry */
+
+.text-deco-none-white{
+
+	text-decoration: none;
+	color: #ebe8de;
+}
+
+.color-white{
+
+	color: #ebe8de;
+
+}
+
+.hover-green:hover{
+
+	color: #80a684
+
+
+}
+
+a{
+
+	color: #95af98;
+
+}
+a:hover{
+
+	opacity: .75;
+
+}
+
+/* Article Links */
+.articles_list{
+	list-style: none;
+}
+
+
 /* For NEXTPREV.HTML */
 #nextprev {
 	/* The container for both the previous and next articles. */
@@ -58,10 +102,16 @@ footer {
 code{
 
 	padding: 1rem;
+	border-radius: 100%;
+
 	
 }
 
 code>span{
 	
-	padding-left: .75rem;;
+	padding-left: .75rem;
+}
+
+pre{
+	border-radius: 20px;
 }
